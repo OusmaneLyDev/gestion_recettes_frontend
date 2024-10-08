@@ -11,13 +11,11 @@ Ce projet est une application de gestion de recettes de cuisine, développée en
 - **Vue.js** : Framework JavaScript pour construire l'interface utilisateur.
 - **Axios** : Bibliothèque utilisée pour effectuer des appels API HTTP.
 - **Bootstrap 5** : Framework CSS pour le style et la mise en page.
-- **Vercel** : Plateforme de déploiement pour héberger l'application.
-- **Uruku** : Autre plateforme de déploiement utilisée pour héberger l'application.
 
 
 
-Vous aurez également besoin d'un accès à une API pour gérer les recettes et les catégories, ou vous pouvez configurer une API locale en suivant les instructions fournies avec le projet.
 
+Vous aurez également besoin d'un accès à une API pour gérer les recettes et les catégories, ou vous pouvez configurer une API locale en suivant les instructions fournies avec le projet.   
 
 
 ## Fonctionnalités
@@ -40,14 +38,14 @@ Vous aurez également besoin d'un accès à une API pour gérer les recettes et 
 1. **Cloner le projet**
 
    ```bash
-   git clone https://github.com/Ehya-Ag/Gestion_recettes.git
-   cd gestion_recettes
+   git clone https://github.com/OusmaneLyDev/gestion_recettes_frontend.git
+   cd gestion_recettes_frontend
 
 2. **Installer les dépendances**
 
     ```bash
     npm install
-
+    ```
 
 3. **Lancer l'application en mode dévéloppement**
 
@@ -55,16 +53,17 @@ Vous aurez également besoin d'un accès à une API pour gérer les recettes et 
     npm run dev
     ```
 
-## Routes API
 
-- `GET /recettes` : Récupérer toutes les recettes
-- `POST /recettes` : Ajouter une nouvelle recette
-- `PUT /recettes/:id` : Modifier une recette existante
-- `DELETE /recettes/:id` : Supprimer une recette
 
+## Tests
+
+- Si des tests unitaires sont mis en place dans le projet, vous pouvez les exécuter avec la commande suivante :
+  
+ ```
+ bash
+ npm run test
+```
 
 ## Auteur
 
-Ce projet est un projet collaboratif développé par :
-- [Ehya Agg](https://github.com/Ehya-Ag) 
 - [Ethman Ly](https://github.com/OusmaneLyDev).
