@@ -55,15 +55,6 @@ Vous aurez également besoin d'un accès à une API pour gérer les recettes et 
 
 
 
-## Tests
-
-- Si des tests unitaires sont mis en place dans le projet, vous pouvez les exécuter avec la commande suivante :
-  
- ```
- bash
- npm run test
-```
-
 ## Auteur
 
 - [Ethman Ly](https://github.com/OusmaneLyDev).
